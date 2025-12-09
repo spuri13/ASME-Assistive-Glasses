@@ -19,8 +19,18 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.myapp",
+
+      "permissions": [
+    "BLUETOOTH",
+    "BLUETOOTH_ADMIN",
+    "BLUETOOTH_CONNECT",
+    "BLUETOOTH_SCAN",
+    "ACCESS_FINE_LOCATION"
+  ]
     },
+
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"
